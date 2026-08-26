@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - master
+      - github-actions-tutorial
 
   push:
     branches:
