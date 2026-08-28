@@ -1,7 +1,7 @@
 """Functions for displaying the Real Python feed."""
 
 # Standard library imports
-from typing import List
+from __future__ import annotations
 
 
 def show(article: str) -> None:
@@ -9,7 +9,7 @@ def show(article: str) -> None:
     print(article)
 
 
-def show_list(site: str, titles: List[str]) -> None:
+def show_list(site: str, titles: list[str]) -> None:
     """Show list of articles."""
     print(f"The latest tutorials from {site}")
     for article_id, title in enumerate(titles):
