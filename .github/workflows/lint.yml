@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Linting-check:
+  linting-check:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,10 +22,10 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-verson: "3.13"
+          python-version: "3.13"
 
       - name: Install Ruff
-        run: python -m pip install Ruff
+        run: python -m pip install ruff
 
       - name: Run Ruff
         run: ruff check .
