@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - github-actions-tutorial
+      - main
 
   workflow_dispatch:
 
