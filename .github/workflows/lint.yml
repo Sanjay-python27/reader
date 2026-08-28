@@ -1,7 +1,7 @@
 name: Sanjay - GitHub Actions Learning
 
 on:
-  push:
+  pull-request:
     branches:
       - github-actions-tutorial
 
