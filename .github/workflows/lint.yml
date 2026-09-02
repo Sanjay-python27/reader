@@ -6,6 +6,10 @@ on:
       - github-actions-tutorial
       - master
 
+  push:
+    branches:
+      - github-actions-tutorial
+
   workflow_dispatch:
 
 jobs:
