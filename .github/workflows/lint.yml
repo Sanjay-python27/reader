@@ -36,7 +36,7 @@ jobs:
 
   tests:
     name: Run Tests
-    needs: lint
+    needs: linting-check
     runs-on: ubuntu-latest
 
     steps:
